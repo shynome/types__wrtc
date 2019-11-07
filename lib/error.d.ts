@@ -1,4 +1,7 @@
 
+/**
+ * 和标准实现的接口不同
+ */
 declare class RTCError {
   name: string
   message: string
