@@ -1,8 +1,9 @@
+import RTCIceCandidate from "./icecandidate";
 
 declare class RTCPeerConnectionIceEvent {
-  constructor(type: string, eventInitDict: { candidate: any })
+  constructor(type: string, eventInitDict: { candidate: RTCIceCandidateInit })
   type: string
-  value: any
+  value: RTCIceCandidateInit
 }
 
 export = RTCPeerConnectionIceEvent

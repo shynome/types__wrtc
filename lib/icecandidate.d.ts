@@ -1,6 +1,6 @@
 
 declare class RTCIceCandidate {
-  constructor(candidateInitDict: any)
+  constructor(candidateInitDict: RTCIceCandidateInit)
   candidate: any
   sdpMid: any
   sdpMLineIndex: any
