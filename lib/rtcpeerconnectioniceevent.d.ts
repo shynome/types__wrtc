@@ -1,6 +1,8 @@
 
-interface RTCPeerConnectionIceEvent {
-  (type: any, eventInitDict: any): void
+declare class RTCPeerConnectionIceEvent {
+  constructor(type: string, eventInitDict: { candidate: any })
+  type: string
+  value: any
 }
 
 export = RTCPeerConnectionIceEvent
