@@ -42,10 +42,10 @@ export { _RTCSctpTransport as RTCSctpTransport }
 
 export declare class RTCVideoSink { }
 export declare class RTCVideoSource { }
-export declare class getUserMedia { }
-export type i420ToRgba = any
-export type rgbaToI420 = any
-export type setDOMException = any
+export declare const getUserMedia: any
+export declare const i420ToRgba: any
+export declare const rgbaToI420: any
+export declare const setDOMException: any
 
 declare class _RTCPeerConnection { }
 interface _RTCPeerConnection extends RTCPeerConnection {
