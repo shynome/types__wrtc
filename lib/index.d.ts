@@ -19,12 +19,12 @@ import {
 } from "./binding";
 
 declare const nonstandard: {
-  i420ToRgba: i420ToRgba,
+  i420ToRgba: typeof i420ToRgba,
   RTCAudioSink: RTCAudioSink,
   RTCAudioSource: RTCAudioSource,
   RTCVideoSink: RTCVideoSink,
   RTCVideoSource: RTCVideoSource,
-  rgbaToI420: rgbaToI420,
+  rgbaToI420: typeof rgbaToI420,
 };
 
 import RTCDataChannelEvent from './datachannelevent'
